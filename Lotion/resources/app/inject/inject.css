@@ -1,0 +1,49 @@
+[style^="font-weight:600"]
+{
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* To make cursor style as pointer when hover on scrollbar */
+.notion-scroller {
+    cursor: auto;
+}
+/* Scrollbar size */
+::-webkit-scrollbar {
+    width: 7px; /* To change vertical scrollbar width */
+    height: 7px; /* To change horizontal scrollbar height */
+}
+/* Element where vertical and horizontal scrollbars converge */
+::-webkit-scrollbar-corner{
+    background-color: transparent;
+}
+
+/* Light Theme style for Scrollbars */
+.notion-light-theme ::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+    background-color: #afafaf;
+}
+.notion-light-theme ::-webkit-scrollbar-track {
+    border-radius: 7px;
+    background-color: #e4e4e4;
+}
+.notion-light-theme ::-webkit-scrollbar-thumb:hover{
+    background: #969696;
+}
+/* Light Theme style for Scrollbars */
+
+
+/* Dark Theme style for Scrollbars */
+.notion-dark-theme ::-webkit-scrollbar-track {
+    border-radius: 7px;
+    background-color: #3d3d42;
+}
+.notion-dark-theme ::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+    background-color: #5d5d5d;
+}
+.notion-dark-theme ::-webkit-scrollbar-thumb:hover{
+    background: #868686;
+}
+/* Dark Theme style for Scrollbars */
