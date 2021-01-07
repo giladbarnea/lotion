@@ -24,8 +24,18 @@ Here is how it looks
 > Use this [link](https://www.notion.so/?r=55d4c384b54a457490f6cc1799bedc76) to sign up and get ready to manage your life like you have never managed before ([Notion.so](https://www.notion.so/?r=55d4c384b54a457490f6cc1799bedc76))
 
 # Installation
+Download setup script
+```bash
+wget https://raw.githubusercontent.com/puneetsl/lotion/master/setup.sh 
+# Or
+curl https://raw.githubusercontent.com/puneetsl/lotion/master/setup.sh > setup.sh
 
-Simply clone this repo and run 
+# Run (with sudo for global installation, without sudo for local installation)
+[sudo] ./setup.sh install
+# Or for native installation
+[sudo] ./setup.sh install_native
+```
+Or simply clone this repo and run 
 
 ```bash
 ./install.sh 
@@ -68,4 +78,4 @@ Thanks to [sysdrum](https://github.com/sysdrum/notion-app), I used some of his c
 ```
 
 # Advertisement
-<a href="https://www.binarydecimal.com"><img width="80%" height="80%" src="https://i.imgur.com/L7vCi4o.jpg" alt="BinaryDecimal.com"></a>
+<a href="https://www.titanvest.com/?r=7824861d-96fc-4509-bb25-ee8e40daf22e"><img width="50%" height="50%" src="https://user-images.githubusercontent.com/6509604/100786392-14d31200-33e0-11eb-9133-1c03f0b337b4.png" alt="BinaryDecimal.com"></a>
