@@ -69,7 +69,7 @@ function insertDateOnAltShiftD(ev) {
 	if(ev.shiftKey && ev.altKey && ev.key == "D") {
 		const date = new Date().toLocaleDateString("he-IL");
 		let selection = window.getSelection();
-		console.log('date: ', date, '| selection: ', selection, '| selection.anchorNode: ', selection.anchorNode);
+		console.log('date: ', date, '\nselection: ', selection, '\nselection.anchorNode: ', selection.anchorNode);
 		if(selection.anchorNode.appendData) {
 			selection.anchorNode.appendData(date);
 		} else {
@@ -110,6 +110,8 @@ function runThisEvery3s() {
 		let titles = [...embed.querySelectorAll('div[style*="rgba(255, 255, 255, 0.9)"]')];
 		if(titles.length > 1) {
 			titles[0].style['font-weight'] = '600';
+			titles[0].style['margin-top'] = '4px';
+			titles[0].style['margin-bottom'] = '4px';
 		}
 	});
 
